@@ -15,3 +15,4 @@ a.what_ami_i
 a = Drawing::Circle.new
 a.what_ami_i
 
+
