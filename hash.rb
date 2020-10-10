@@ -1,4 +1,4 @@
-dhash1 = Hash.new
+hash1 = Hash.new
 hash2 = {}
 
 hash1 = {"Quill" => 100, "Drax" => 200, "Gamora" => 300}
@@ -28,5 +28,3 @@ end
 
 cnt = 0; i = 0
 a = "the brown fox jumps over the lazy dog"
-while i < a.length
-  
