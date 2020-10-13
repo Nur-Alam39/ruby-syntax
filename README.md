@@ -25,7 +25,5 @@ Modules are used as namespaces and as mixins.
 All the classes are modules, but all the modules are not classes.
 The class can use namespaces, but they cannot use mixins like modules.
 The name of a module must start with a capital letter.
-<<<<<<< HEAD
 
-=======
->>>>>>> e49dd491bf282aa8427be48ee97d2c2c467083cc
+Blocks, Lambda & Procs- https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/
