@@ -1,0 +1,1 @@
+print "Nur Alam".methods.sort
