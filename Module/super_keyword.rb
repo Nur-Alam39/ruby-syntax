@@ -17,3 +17,23 @@ end
 
 obj = C.new
 obj.report
+
+
+class Bicycle
+  attr_reader :gears, :wheels, :seats
+  def initialize(gears = 1)
+    @wheels = 2
+    @seats = 1
+    @gears = gears
+  end
+end
+class Tandem < Bicycle
+  def initialize(gears)
+    super
+    @seats = 2
+  end
+end
+obj = Tandem.new("3")
+puts "wheel: #{obj.wheels}"
+puts "seats: #{obj.seats}"
+puts "gears: #{obj.gears}"
